@@ -1,0 +1,148 @@
+:root{//variavek de estilo global
+   --vermelho:#e50914;
+   --preto:#141414;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: var(--preto);
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: white;
+}
+
+
+
+div .container{
+    display: flex;
+    margin-left: 5px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    
+     
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div .Logo{
+ color: var(--vermelho);
+ font-size: 40px;
+ font-family: 'Arial Black', 'Times New Roman', Times, serif;
+
+
+}
+.pro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+
+    h4{
+        padding: 10px;
+    }
+
+    .img{
+       background-color: red;
+       background-size: cover;
+        height: 25px;
+        width: 30px;
+        margin-left: 15px;
+        border-radius: 5px;
+        background: url('../../assets/icon.png');
+    }
+}
+div nav  {
+    color: #AAA;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+div nav a {
+    color: #AAA;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 13px;
+}
+
+div nav a:hover{
+    color: #fff;
+}
+
+ .filme-principal{
+    font-size: 16px;
+    background: linear-gradient( rgba(0,0,0,.50),(rgba(0,0,0, .50)) 100%),
+    url('../../assets/TheWitcher.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    align-items: flex-start;
+
+    .container2{
+        margin-left: 20px;
+    }
+
+    .Title{
+        margin-top: 15%;
+        font-size: 60px;
+        font-family: 'Poppins';
+    }
+
+    .Descripition{
+
+        margin-bottom: 60px;
+        font-family: 'Poppins';
+    }
+
+    .botoes button{
+       background-color: rgb(0, 0, 0, 0.5);
+       font-size: 12px;
+       padding: 10px 30px;
+       margin-right: 20px;
+       border-radius: 5px;
+       border: none;
+       color: rgb(255, 255, 255);
+       cursor: pointer;
+       transition: .3s ease all;
+       border: 1px solid rgb(27, 27, 27);
+
+       .icon {
+        margin-right: 10px;
+        color: rgb(255, 255, 255);
+        align-items: center;
+        justify-content: center;
+        
+     }
+      
+    }
+
+    .botoes button:hover{
+        
+        color: rgb(255, 255, 255);
+        border: 1px solid red;
+        .icon {
+            margin-right: 10px;
+            color: rgb(255, 254, 254);
+            align-items: center;
+            
+         }
+    }
+
+   
+}
+
