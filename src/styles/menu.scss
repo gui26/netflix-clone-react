@@ -1,0 +1,68 @@
+#dropdwon{
+    background-color: #090907;
+    width: 150px;
+    height: 285px;
+    position: absolute;
+    transform: translateX(1150px) translateY(170px);
+    border-radius: 5px;
+    justify-content: center;
+   
+
+    .img{
+       
+        background-size: contain;
+         height: 22px;
+         width: 28px;
+         margin-left: 15px;
+         border-radius: 5px;
+         background: url('../../assets/icon.png');
+         cursor: pointer;
+ 
+         
+     }
+
+     .itenslink{
+         flex-direction: row;
+         display: flex;
+         margin-bottom: 10px;
+         justify-content: flex-start;
+         align-items: center;
+        margin-top: 15px;
+     }
+
+     .itenslink a{
+         margin-left: 10px;
+         text-decoration: none;
+         color: #fff;
+         font-size: 12px;
+     }
+     .border{
+         border-bottom: 1px solid rgb(41, 41, 41);
+         padding: 10px;
+         align-items: center;
+         justify-content: center;
+         a{
+             font-size: 12px;
+             cursor: pointer;
+         }
+         
+     }
+     .central{
+         font-size: 12px;
+         flex-direction: column;
+         display: flex;
+         align-items: flex-start;
+         margin-left: 10px;
+         justify-content: center;
+         margin-top: 10px;
+
+         a{
+             margin: 4px 0;
+             cursor: pointer;
+             text-decoration: none;
+             color: #fff;
+         }
+     }
+   
+    
+}

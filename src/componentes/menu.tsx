@@ -1,29 +1,44 @@
-import '../styles/global.scss'
-
+import '../styles/menu.scss'
+import Avatar from "../../assets/icon.png";
 
 export  function Menu(){
 
 
     return(
      <div  id="dropdwon">
-          <ul>
-            <li>
-                <a className="listA"  href="#">Guilherme</a>
-            </li>
+          <div>
+            <div className='itenslink'>
+               <div className='img'></div>
+                <a href="#">Guilherme</a>
+            </div>
             
-            <li>
-                <a  className="listA" href="#">Poliana</a>
-            </li>
+            <div className='itenslink'>
+                 <div className='img'></div>
+                <a href="#">Podivana</a>
+            </div >
 
-            <li>
-                <a  className="listA" href="#">Jaqueline</a>
-            </li>
+            <div className='itenslink'>
+                <div className='img'></div>
+                <a href="#">Jaquedivne</a>
+            </div>
 
-            <li>
-                <a  className="listA" href="#">Gustavo</a>
-            </li>
-           
-        </ul>
+            <div className='itenslink'>
+                <div className='img'></div>
+                <a href="#">Gustavo</a>
+               
+            </div>
+
+            <div className='border'>
+              <a>Gerenciar perfis</a>
+            </div>
+
+            <div className='central'>
+              <a href="#">Conta</a>
+              <a href="#">Central de ajuda</a>
+              <a href="#">Sair da Netflix</a>
+            </div>
+             
+        </div>
 
     </div>
     )

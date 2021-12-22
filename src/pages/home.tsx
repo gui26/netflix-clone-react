@@ -19,11 +19,8 @@ const [showmenu, setShowmenu] = useState(false)
      const hiddemM = () =>{
         setShowmenu(false)
     }
-
-   
-   
     
-    return(
+return(
 
         <>
            <div className="container">
@@ -35,9 +32,7 @@ const [showmenu, setShowmenu] = useState(false)
                             <a href="#">Filmes</a>
                             <a href="#">Bombando</a>
                             <a href="#">Minha lista</a>
-                            <a href="#">Navegar por idiomas</a>
-
-                        
+                            <a href="#">Navegar por idiomas</a>                        
                         </nav>
               </div>
            
@@ -50,18 +45,14 @@ const [showmenu, setShowmenu] = useState(false)
                     <div className="iconClicar" onClick={ShowM}>
                      <BsFillCaretDownFill size={15} color="white" />
                     </div>
-                  
-                </div>
+                  </div>
 
                 {showmenu ? <Menu /> : null}
 
                
            </div>
-           
-
-           <main>
-        
-               <div className="filme-principal">
+          <main>
+              <div className="filme-principal">
                    <div className="container2" >
                       <h1 className="Title">The Witcher 2021</h1>
                       <p className="Descripition">O mutante Geralt de Rívia é um caçador de monstros que<br/> 
@@ -82,10 +73,7 @@ const [showmenu, setShowmenu] = useState(false)
                    </div>
                </div>
 
-             
-
-          
-           </main>
+          </main>
 
 
 

@@ -57,16 +57,18 @@ div .Logo{
     }
 
     .img{
-       background-color: red;
-       background-size: cover;
-        height: 25px;
-        width: 30px;
-        margin-left: 15px;
-        border-radius: 5px;
-        background: url('../../assets/icon.png');
+       
+        background-size: contain;
+         height: 28px;
+         width: 32px;
+         margin-left: 15px;
+         border-radius: 5px;
+         background: url('../../assets/icon.png');
+         
+ 
+         
+     }
 
-        
-    }
 }
 .iconClicar{
     margin-left: 10px;
@@ -89,28 +91,9 @@ div nav a {
 div nav a:hover{
     color: #fff;
 }
-#dropdwon{
-    background-color: red;
-    width: 150px;
-    height: 200px;
-    position: absolute;
-    transform: translateX(1150px) translateY(130px);
-    border-radius: 5px;
-    justify-content: center;
-    display: flex;
-   
-    
-}
-
-.dropdwon ul li a {
-
-    text-decoration: none;
-    color: 'white'; 
-    padding: 10px 0px;
-    list-style: none;
 
 
-}
+
 
 
 
@@ -174,6 +157,17 @@ div nav a:hover{
             
          }
     }
+    .img2{
+        background-color: red;
+        background-size: cover;
+         height: 25px;
+         width: 30px;
+         margin-left: 15px;
+         border-radius: 5px;
+         background: url('../../assets/icon.png');
+ 
+         
+     }
 
    
 }
