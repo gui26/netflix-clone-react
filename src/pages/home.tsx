@@ -1,16 +1,27 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useLayoutEffect} from "react";
 import  {FaPlay}  from "react-icons/fa";
 import  {BsFillInfoCircleFill}  from "react-icons/bs";
 import  {FaSearch}  from "react-icons/fa";
 import  {AiFillBell}  from "react-icons/ai";
+import  {BsFillCaretDownFill}  from "react-icons/bs";
+import { Menu } from "../componentes/menu";
+
 import Carousel from 'react-elastic-carousel';
 
 
-const baseURL ='https://youtu.be/tjujvMkqWe4';
-
-
 export function  Home(){
- 
+    
+const [showmenu, setShowmenu] = useState(false)
+    
+     const ShowM = () =>{
+         setShowmenu(true)
+     }
+     const hiddemM = () =>{
+        setShowmenu(false)
+    }
+
+   
+   
     
     return(
 
@@ -35,7 +46,16 @@ export function  Home(){
                     <h4>Adulto</h4>
                     <AiFillBell size={24} />
                     <div className="img"></div>
+
+                    <div className="iconClicar" onClick={ShowM}>
+                     <BsFillCaretDownFill size={15} color="white" />
+                    </div>
+                  
                 </div>
+
+                {showmenu ? <Menu /> : null}
+
+               
            </div>
            
 
@@ -62,7 +82,9 @@ export function  Home(){
                    </div>
                </div>
 
-              
+             
+
+          
            </main>
 
 

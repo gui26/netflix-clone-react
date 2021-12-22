@@ -49,7 +49,8 @@ div .Logo{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 60px;
+    
 
     h4{
         padding: 10px;
@@ -63,7 +64,14 @@ div .Logo{
         margin-left: 15px;
         border-radius: 5px;
         background: url('../../assets/icon.png');
+
+        
     }
+}
+.iconClicar{
+    margin-left: 10px;
+    transform: translateY(5px);
+    cursor: pointer;
 }
 div nav  {
     color: #AAA;
@@ -81,6 +89,30 @@ div nav a {
 div nav a:hover{
     color: #fff;
 }
+#dropdwon{
+    background-color: red;
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    transform: translateX(1150px) translateY(130px);
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+   
+    
+}
+
+.dropdwon ul li a {
+
+    text-decoration: none;
+    color: 'white'; 
+    padding: 10px 0px;
+    list-style: none;
+
+
+}
+
+
 
  .filme-principal{
     font-size: 16px;
