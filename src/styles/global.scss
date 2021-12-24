@@ -62,32 +62,8 @@ div .Logo{
     transition: ease 0.5s 
     
 }
-.pro{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 60px;
-    
 
-    h4{
-        padding: 10px;
-    }
-
-    .img{
-       
-        background-size: contain;
-         height: 28px;
-         width: 32px;
-         margin-left: 15px;
-         border-radius: 5px;
-         background: url('../../assets/icon.png');
-         
- 
-         
-     }
-
-}
+   
 .iconClicar{
     margin-left: 10px;
     transform: translateY(5px);
@@ -117,7 +93,8 @@ div nav a:hover{
 
  .filme-principal{
     font-size: 16px;
-    background: linear-gradient(to top, #141414 10%, transparent 90%),
+    background: linear-gradient(to bottom, #141414d7 5%, transparent 100%), 
+    linear-gradient(to top, #141414 10%, transparent 100%), 
     url('../../assets/TheWitcher.jpg');
     background-size: cover;
     display: flex;
@@ -125,6 +102,7 @@ div nav a:hover{
     height: 500px;
     justify-content: center;
     align-items: flex-start;
+
 
     .container2{
         margin-left: 20px;

@@ -2,15 +2,15 @@
     background-color: #090907;
     width: 150px;
     height: 285px;
-    position: absolute;
-    transform: translateX(1150px) translateY(170px);
+    position: fixed;
+    transform: translateX(1150px) translateY(50px);
     border-radius: 5px;
     justify-content: center;
    
 
     .img{
        
-        background-size: contain;
+         background-size: contain;
          height: 22px;
          width: 28px;
          margin-left: 15px;
