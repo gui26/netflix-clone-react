@@ -24,14 +24,14 @@ const PegarClass  = ()=>{
     setDisplay('teste2')
 }
     
-     const ShowM = () =>{
-         setShowmenu(true);
-         PegarClass();
-     }
-     const hiddemM = () =>{
-        setShowmenu(false)
+const ShowM = () =>{
+    setShowmenu(true);
+     PegarClass();
+}
+const hiddemM = () =>{
+    setShowmenu(false)
         
-    }
+}
 const SairdaArea = () =>{
     setShowmenu(false)
 }
@@ -75,7 +75,7 @@ return(
 {/*  passar propieda      */}
 
                
-           </div>
+        </div>
           <main>
               
               <div className="filme-principal">
