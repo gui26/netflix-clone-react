@@ -35,7 +35,15 @@
          text-decoration: none;
          color: #fff;
          font-size: 12px;
+
+         
      }
+
+     .itenslink a:hover{
+        
+        text-decoration: underline;
+        
+    }
      .border{
          border-bottom: 1px solid rgb(41, 41, 41);
          padding: 10px;
@@ -44,6 +52,13 @@
          a{
              font-size: 12px;
              cursor: pointer;
+             color: #fff;
+             text-decoration: none;
+         }
+
+         a:hover{
+             text-decoration: underline;
+
          }
          
      }
@@ -61,6 +76,9 @@
              cursor: pointer;
              text-decoration: none;
              color: #fff;
+         }
+         a:hover {
+             text-decoration: underline;
          }
      }
    

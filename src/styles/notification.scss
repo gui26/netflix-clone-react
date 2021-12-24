@@ -1,0 +1,58 @@
+
+
+
+.Container-notification{
+   position: absolute;
+   transform:  translateX(940px);
+   margin-top: 335px;
+   height: 270px;
+   overflow-y: hidden;
+   z-index: 1;
+   
+
+   
+     .Container-principal{
+        
+        width: 260px;
+        border-radius: 4px;
+        height: 350px;
+        
+       
+       
+        
+      .item-notification{
+          display: flex;
+          align-items: center;
+          color: rgb(163, 163, 163);
+          background-color: rgba(0, 0, 0, 0.50);
+          padding: 10px;
+          border-bottom: 1px solid rgb(87, 87, 87);
+          font-size: 12px;
+          height: 90px;
+        
+          .img{
+              background: url('../../assets/guia.jpg')  ;
+              background-size: cover;
+              width: 80px;
+              height: 50px;
+              margin-right: 15px;
+              border-radius: 5px;
+          }
+          
+
+          
+         
+      }   
+      .item-notification:hover{
+        background-color: rgba(0, 0, 0, 0.856);
+        display: flex;
+        align-items: center;
+        color: #fff;
+        height: 90px;
+        padding: 10px;
+
+      }
+
+      
+    }
+}

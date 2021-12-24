@@ -1,11 +1,17 @@
 import '../styles/menu.scss'
 import Avatar from "../../assets/icon.png";
 
-export  function Menu(){
+
+
+type ButtoProps = {
+  onMouseLeave? : any;
+}
+
+export  function Menu(props: ButtoProps){
 
 
     return(
-     <div  id="dropdwon">
+     <div  id="dropdwon" onMouseLeave={props.onMouseLeave}>
           <div>
             <div className='itenslink'>
                <div className='img'></div>
@@ -14,12 +20,12 @@ export  function Menu(){
             
             <div className='itenslink'>
                  <div className='img'></div>
-                <a href="#">Podivana</a>
+                <a href="#">Poliana</a>
             </div >
 
             <div className='itenslink'>
                 <div className='img'></div>
-                <a href="#">Jaquedivne</a>
+                <a href="#">Jaqueline</a>
             </div>
 
             <div className='itenslink'>
@@ -29,7 +35,7 @@ export  function Menu(){
             </div>
 
             <div className='border'>
-              <a>Gerenciar perfis</a>
+              <a href='#'>Gerenciar perfis</a>
             </div>
 
             <div className='central'>

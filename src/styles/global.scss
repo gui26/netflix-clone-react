@@ -44,6 +44,24 @@ div .Logo{
 
 
 }
+.teste{
+    background-color: red;
+    height: 180px;
+    width: 150px;
+    position: absolute;
+    display: flex;
+    transition: ease 0.5s ;
+}
+
+.teste2{
+    background-color: rgb(0, 248, 227);
+    position: absolute;
+    height: 180px;
+    width: 150px;
+    display: flex;
+    transition: ease 0.5s 
+    
+}
 .pro{
     display: flex;
     flex-direction: row;
@@ -99,7 +117,7 @@ div nav a:hover{
 
  .filme-principal{
     font-size: 16px;
-    background: linear-gradient( rgba(0,0,0,.50),(rgba(0,0,0, .50)) 100%),
+    background: linear-gradient(to top, #141414 10%, transparent 90%),
     url('../../assets/TheWitcher.jpg');
     background-size: cover;
     display: flex;
@@ -168,7 +186,45 @@ div nav a:hover{
  
          
      }
-
+ 
+    
    
 }
+
+.arrowF{
+    width: 100%;
+    margin-top: 130px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 1;
+    .arrowIcon{
+        background-color: rgba(0, 0, 0, 0.336);
+        padding: 10px 25px;
+        align-items: center;
+        height: 150px;
+        justify-content: center;
+        margin: 0 15px;
+        height: 100%;
+        color: rgba(243, 243, 243, 0.692);
+        cursor: pointer;
+        
+    }
+
+    .arrowIcon:hover{
+        background-color: rgba(0, 0, 0, 0.842);
+        padding: 10px 25px;
+        align-items: center;
+        height: 150px;
+        justify-content: center;
+        margin: 0 15px;
+        height: 100%;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        
+    }
+}
+
 

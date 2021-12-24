@@ -1,0 +1,121 @@
+.containergeral{
+    
+    margin-top: -35px;
+}
+
+.title2{
+    margin: 10px 15px;
+}
+
+.container3{
+    background-color: transparent;
+    display: flex;
+   
+   
+    overflow-x: hidden;
+    
+
+    .list{
+       
+    display: inline-flex;
+        
+          
+    }
+    
+    .item{
+      
+        background-color: transparent;
+        width: 200px;
+        height: 325px;
+        
+       
+        
+        .capa1{
+            background: url('./../../assets/Cartaz/Venom.jpg');
+            background-size: cover;
+            transform: scale(0.9);
+            transition: all ease 0.3s;
+            height: 90%;
+            border-radius: 5px;
+        }
+
+        .capa2{
+            background: url('./../../assets/Cartaz/alerta.jpg');
+            background-size: cover;
+            transform: scale(0.9);
+            transition: all ease 0.3s;
+            height: 90%;
+            border-radius: 5px;
+        }
+
+        .capa3{
+            background: url('./../../assets/Cartaz/chernobil.jpg');
+            background-size: cover;
+            transform: scale(0.9);
+            transition: all ease 0.3s;
+            height: 90%;
+            border-radius: 5px;
+        }
+        .capa4{
+            background: url('./../../assets/Cartaz/garotacartaz.jpg');
+            background-size: cover;
+            transform: scale(0.9);
+            transition: all ease 0.3s;
+            height: 90%;
+            border-radius: 5px;
+        }
+
+        .capa5{
+            background: url('./../../assets/Cartaz/matrix.jpg');
+            background-size: cover;
+            transform: scale(0.9);
+            transition: all ease 0.3s;
+            height: 90%;
+            border-radius: 5px;
+        }
+
+        .capa6{
+            background: url('./../../assets/Cartaz/witcher.jpg');
+            background-size: cover;
+            transform: scale(0.9);
+            transition: all ease 0.3s;
+            height: 90%;
+            border-radius: 5px;
+        }
+
+        .capa7{
+            background: url('./../../assets/Cartaz/riverdale.jpg');
+            background-size: cover;
+            transform: scale(0.9);
+            transition: all ease 0.3s;
+            height: 90%;
+            border-radius: 5px;
+        };
+        
+         .capa1:hover{
+            transform: scale(1.0);
+         }
+         .capa2:hover{
+            transform: scale(1.0);
+         }
+         .capa3:hover{
+            transform: scale(1.0);
+         }
+         .capa4:hover{
+            transform: scale(1.0);
+         }
+         .capa4:hover{
+            transform: scale(1.0);
+         } 
+         .capa5:hover{
+            transform: scale(1.0);
+         }
+         .capa6:hover{
+            transform: scale(1.0);
+         }
+         .capa7:hover{
+            transform: scale(1.0);
+        }
+        
+    }
+}
