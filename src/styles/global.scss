@@ -205,4 +205,66 @@ div nav a:hover{
     }
 }
 
+.iconFecarModal{
+    color: red;
+    fill: white;
+    position: absolute;
+    margin-top: -290px;
+    margin-left: 300px;
+}
+
+
+
+.imgModal{
+    background:  linear-gradient(to top, #000000e5 0%, transparent 100%), url('../../assets/Cartaz/ggg.jpg');
+    background-size: cover;
+    width: 698px;
+    height: 500px;
+    
+    margin-top: -20px;
+}
+
+.butonmodal{
+    background-color: red;
+    border: none;
+    width: 150px;
+    height: 25px;
+    margin: 35px 15px;
+    border-radius: 5px;
+    color: white;
+    scale: (0.9);
+}
+
+.butonmodal:hover{
+    background-color: rgb(230, 226, 10);
+    border: none;
+    width: 150px;
+    height: 25px;
+    margin: 35px 15px;
+    border-radius: 5px;
+    color: white;
+    
+
+}
+
+
+
+.texts{
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    h2{
+        padding: 10px;
+    }
+}
+
+@media screen and(max-width:360px){
+    .Title{
+        font-size: 5px;
+    }
+    
+    
+}
+
 

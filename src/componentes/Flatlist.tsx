@@ -2,14 +2,15 @@ import { type } from "os";
 import React from "react";
 import './../styles/flat.scss';
 type TitleProps={
-    title: string;
+    title?: string;
+    container?:string
 }
 
 export function Flatlist(props: TitleProps){
     return(
         <div className="containergeral">
         <h3 className="title2">{props.title}</h3>
-        <div className="container3">
+        <div className={props.container}>
             
             <div className="list">
 

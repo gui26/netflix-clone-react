@@ -1,5 +1,5 @@
 .container-header{
-  margin-top: 60px;
+  margin-top: 55px;
   position: fixed;
   width: 100%;
   background-color:transparent;
@@ -7,17 +7,20 @@
   flex-direction: row;
   justify-content: space-between;
   z-index: 999;
+  transition: all ease 0.5s;
 }
 
 .container-black{
     margin-top: 55px;
     position: fixed;
     width: 100%;
-    background-color:black;
+    background: linear-gradient(to top, rgb(20, 20, 20) 10%, rgb(0, 0, 0)  );
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     z-index: 999;
+    transition: all ease 0.5s;
+    
   }
 
 .header-area-profile{
@@ -49,4 +52,18 @@
 
 .navbar{
     padding: 0px 20px;
+}
+
+
+
+
+@media screen and(max-width:521px){
+    .container-header, .logo{
+       flex-direction: column;
+       margin-top: 100px;
+    }
+
+    .logo{
+        font-size: 5px;
+    }
 }

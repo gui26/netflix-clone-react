@@ -5,6 +5,7 @@ import { Menu } from './menu';
 import  {FaSearch}  from "react-icons/fa";
 import  {AiFillBell}  from "react-icons/ai";
 import  {BsFillCaretDownFill}  from "react-icons/bs";
+import { Link} from   'react-router-dom';
 
 type Propriedades={
     className: any;
@@ -43,7 +44,7 @@ const NotificationDisplay = () =>{
                 <div className="navbar">
                     <h1 className="Logo">Netflix</h1>
                         <nav className="links">
-                            <a href="#">Inicio</a>
+                           <Link to={'Apiget'}><a href="#">Inicio</a></Link> 
                             <a href="#">Séries</a>
                             <a href="#">Filmes</a>
                             <a href="#">Bombando</a>

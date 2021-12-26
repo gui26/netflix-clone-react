@@ -84,3 +84,10 @@
    
     
 }
+
+@media screen and(max-width: 525px) {
+    #dropdwon{
+        display: flex;
+        transform: inherit;
+    }
+}
