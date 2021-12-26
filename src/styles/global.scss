@@ -228,7 +228,7 @@ div nav a:hover{
     background-color: red;
     border: none;
     width: 150px;
-    height: 25px;
+    height: 35px;
     margin: 35px 15px;
     border-radius: 5px;
     color: white;
@@ -236,13 +236,13 @@ div nav a:hover{
 }
 
 .butonmodal:hover{
-    background-color: rgb(230, 226, 10);
+    background-color: rgb(255, 255, 255);
     border: none;
     width: 150px;
-    height: 25px;
+    height: 35px;
     margin: 35px 15px;
     border-radius: 5px;
-    color: white;
+    color: rgb(0, 0, 0);
     
 
 }
@@ -254,8 +254,10 @@ div nav a:hover{
     justify-content: center;
     align-self: center;
     text-align: center;
+    overflow: hidden;
     h2{
         padding: 10px;
+        font-size: 35px;
     }
 }
 

@@ -127,7 +127,7 @@ return(
                        <div className="texts">
                         <h2>The Witcher</h2>
                     
-                        <p>O mutante Geralt de Rívia é um caçador de monstros que luta para encontrar seu 
+                        <p>O mutante Geralt de Rívia é um caçador de monstros que luta para <br></br>encontrar seu 
                         lugar em um mundo onde as pessoas, muitas vezes, são mais perversas do que as criaturas selvagens.</p>
                            
                            
