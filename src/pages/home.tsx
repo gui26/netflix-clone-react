@@ -5,13 +5,9 @@ import  {AiFillCloseCircle}  from "react-icons/ai";
 import  {Flatlist} from "../componentes/Flatlist";
 import  {MdArrowBackIosNew}  from "react-icons/md";
 import  {MdOutlineArrowForwardIos}  from "react-icons/md";
-
 import Carousel from 'react-elastic-carousel';
 import Header from "../componentes/header";
-import { transform } from "typescript";
 import  Modal  from 'react-modal';
-
-
 
 
 export function  Home( ){
@@ -30,12 +26,9 @@ const closeModal = () =>{
     setIsOpen(false);
 }
 
-
-
 const MoverLeft = () =>{
     setListsleft('container4')
 }
-
 
 useEffect( ()=>{
 
@@ -54,16 +47,13 @@ useEffect( ()=>{
 },[])
 
 
-
 return(
-
         <>
            <div className="container">
                <Header className={NavBar}/>
               
 {/*  passar propiedades      */}
 
-               
         </div>
           <main>
               
@@ -90,10 +80,9 @@ return(
                    </div>
                </div>
 
-                <Modal
+             <Modal
                 isOpen ={modalIsOpen}
-                //onAfterOpen={}
-                
+                      
                 style={{
 
                     overlay: {
@@ -126,17 +115,14 @@ return(
                         padding: '20px'
                       }
 
-
-
                 }}
                 
                 onRequestClose={closeModal}
                 bodyOpenClassName='modalViews'
                 >
               
-
                       <div className="imgModal"></div>
-                            <div><AiFillCloseCircle onClick={closeModal} size={25} className="iconFecarModal"/></div>
+                     <div><AiFillCloseCircle onClick={closeModal} size={25} className="iconFecarModal"/></div>
 
                        <div className="texts">
                         <h2>The Witcher</h2>
@@ -148,8 +134,6 @@ return(
                       </div> 
                       
 
-
-
                         <div>
                         <button className="butonmodal">
                             Assistir
@@ -159,18 +143,8 @@ return(
                             Trailer
                         </button>
                             
-                        </div>        
-
-
-                
-
-
-
-              
-               
-
-
-                </Modal>
+                        </div>      
+             </Modal>
                
            
             <div className="arrowF" onClick={MoverLeft}>
@@ -192,12 +166,7 @@ return(
                </div>
             <Flatlist container={listsleft} title="Recomendados"/>
 
-
-
-          
           </main>
-
-
 
         </>
 
