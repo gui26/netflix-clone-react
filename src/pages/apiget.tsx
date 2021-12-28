@@ -7,7 +7,7 @@ import {api} from './../../src/services/api'
 
 export const Apiget = ()=>{
 
- const [dados, setDados] = useState("");
+ const [dados, setDados] = useState({});
 
 const BaseUrl = "https://viacep.com.br/ws/01001000/json/";
 
@@ -38,7 +38,7 @@ const BaseUrl = "https://viacep.com.br/ws/01001000/json/";
    })
      .catch((err)=>console.log(err))
  }
- MetodoGET();
+
   
 
     return(

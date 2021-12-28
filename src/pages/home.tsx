@@ -10,8 +10,11 @@ import Header from "../componentes/header";
 import  Modal  from 'react-modal';
 
 
+
+
 export function  Home( ){
-    
+
+
 const [NavBar, setNavBar] = useState('container-header');
 const[listsleft,setListsleft] = useState('container3');
 const[modalIsOpen, setIsOpen]= useState(false);
@@ -29,6 +32,9 @@ const closeModal = () =>{
 const MoverLeft = () =>{
     setListsleft('container4')
 }
+
+
+
 
 useEffect( ()=>{
 
@@ -82,7 +88,6 @@ return(
 
              <Modal
                 isOpen ={modalIsOpen}
-                      
                 style={{
 
                     overlay: {
@@ -99,8 +104,8 @@ return(
                         flexDirection:'column',
                         alignItems: 'center',
                         justifyContent:'center',
-                        position: 'absolute',
-                        width:'700px',
+                        position: 'relative',
+                        width:'650px',
                         height:'525px',
                         top: '70px',
                         left: '350px',
@@ -108,7 +113,7 @@ return(
                         bottom: '40px',
                         border: 'none',
                         background: " rgb(0, 0, 0)",
-                        overflow: 'auto',
+                        overflow: 'hidden',
                         WebkitOverflowScrolling: 'touch',
                         borderRadius: '15px',
                         outline: 'none',
@@ -121,8 +126,12 @@ return(
                 bodyOpenClassName='modalViews'
                 >
               
-                      <div className="imgModal"></div>
+                     <div className="imgModal"></div>
                      <div><AiFillCloseCircle onClick={closeModal} size={25} className="iconFecarModal"/></div>
+             
+
+                
+
 
                        <div className="texts">
                         <h2>The Witcher</h2>
